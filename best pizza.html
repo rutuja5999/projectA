@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html>
+	<head>
+	
+	</head>
+	<body>
+		<header>
+			<h1>Best Pizza Ever!</h1>
+			<h3>Come and get some homie.</h3>
+		</header>
+     
+     <main>
+     	<section id="contact-form">
+     	    <h2>Place order</h2>
+         <form method="GET" action="Place-order.php">
+         <!-- Radio button -->
+         <h4> Delivery</h4>
+          <input name="delivery method" type="radio" value="Delivery"   />Delivery<br />
+        
+          <input name="delivery method" type="radio" value="Pickup" />Pickup<br />
+
+
+    	    <h4>Address</h4>
+    	<input name="address1" placeholder="address line 1" class="lg-input"/>
+    	<br />
+    	<input name="address2" placeholder="address line 2" class="lg-input"/>
+        <br /> <br />
+
+        <input name="city" placeholder="city" class="sm-input"/>
+        <input name="state" placeholder="state" class="sm-input"/>
+        <input name="zip" placeholder="zip code" class="sm-input"/>
+        <br />
+
+        <!-- size -->
+        <h4> Size</h4>
+        <select name="size">
+        	<option value="12">12" -$ 13.99</option>
+        		<option value="16">16" -$ 16.99</option>
+        			<option value="18">18" -$ 19.99</option>
+        				<option value="72">72" -$ 149.99</option>
+
+        	<!-- Ingredients -->
+
+        <h4> Ingredients</h4>
+        <input name="Ingredients" type="checkbox" value="Peopperoni" />Peopperoni<br />
+    	 <input name="Ingredients" type="checkbox" value="salami" />salami<br />
+    	  <input name="Ingredients" type="checkbox" value="bacon" />bacon<br />
+    	   <input name="Ingredients" type="checkbox" value="onion" />onion
+    	   <br />
+    	   <!-- button -->
+         <button type="submit">Place order</button>
+
+		
+
+    </form>
+
+     	</section>
+
+     </main>
+
+
+	</body>
+</html>
+
